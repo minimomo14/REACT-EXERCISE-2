@@ -7,8 +7,8 @@ function PetInfo(){
     return(
         <div className="PetInfo">
             <h1>Confirmation</h1>
-            <h2>{pet.name}</h2>
-            <h2>{pet.breed}</h2>
+            <h2>Name: {pet.name}</h2>
+            <h2>Breed: {pet.breed}</h2>
         </div>
     );
 };
